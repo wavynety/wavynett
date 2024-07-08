@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #011926;
+  /* dark blue background */
+}
+
+header {
+  background-color: #011926;
+  /* darker blue header */
+  color: #00e980;
+  /* vibrant lime green text */
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+section {
+  background-color: #011926;
+  /* dark blue section */
+  padding: 100px;
+  border: 1px solid #00e980;
+  /* vibrant lime green border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+p,
+h4 {
+  color: #00e980;
+  /* vibrant lime green text */
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #011926;
+  /* darker blue footer */
+  color: #00e980;
+  /* vibrant lime green text */
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+/* toggle switch styles */
+.toggle-switch {
+  background-color: #00e980;
+  /* vibrant lime green background */
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.toggle-handle {
+  background-color: #011926;
+  /* dark blue-green oval */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.toggle-handle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  /* white half of toggle */
+  border-radius: 50%;
+}
